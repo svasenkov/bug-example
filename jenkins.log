@@ -1,0 +1,20 @@
+
+com.jobtoday.tests.parallel.Parallel1Tests > firstTest() STARTED
+
+com.jobtoday.tests.parallel.Parallel1Tests > firstTest() STANDARD_OUT
+    First test
+
+com.jobtoday.tests.parallel.Parallel2Tests > secondTest() STARTED
+
+com.jobtoday.tests.parallel.Parallel2Tests > secondTest() STANDARD_OUT
+    Second test
+
+> Task :without_second
+
+com.jobtoday.tests.parallel.Parallel1Tests > firstTest() STARTED
+
+com.jobtoday.tests.parallel.Parallel1Tests > firstTest() STANDARD_OUT
+    First test
+
+BUILD SUCCESSFUL in 1m 55s
+3 actionable tasks: 3 executed
